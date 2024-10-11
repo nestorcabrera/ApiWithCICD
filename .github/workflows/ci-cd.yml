@@ -15,9 +15,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GHCR_TOKEN }}
         run: echo $GITHUB_TOKEN | docker login ghcr.io -u ${{ github.repository_owner }} --password-stdin
-
       - name: Build Docker image
-        run: docker build -t ghcr.io/${{ github.repository_owner }}/ApiWithCICD:latest .
-
+        run: docker build -t ghcr.io/${{ github.repository_owner }}/apiwithcicd:latest .
       - name: Push Docker image to GitHub Container Registry
-        run: docker push ghcr.io/${{ github.repository_owner }}/ApiWithCICD:latest
+        run: docker push ghcr.io/${{ github.repository_owner }}/apiwithcicd:latest
