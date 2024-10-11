@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cN4bbsm620mxQbBxp52XLVI4/SY9RZ5j/mPJTOFugl4=",
+  "Source": "ApiWithCICD",
+  "BasePath": "_content/ApiWithCICD",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
