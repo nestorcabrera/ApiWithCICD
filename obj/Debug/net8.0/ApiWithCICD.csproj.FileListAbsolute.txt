@@ -40,3 +40,4 @@ C:\Users\admin\Desktop\repo-c-shart\ApiWithCICD\obj\Debug\net8.0\refint\ApiWithC
 C:\Users\admin\Desktop\repo-c-shart\ApiWithCICD\obj\Debug\net8.0\ApiWithCICD.pdb
 C:\Users\admin\Desktop\repo-c-shart\ApiWithCICD\obj\Debug\net8.0\ApiWithCICD.genruntimeconfig.cache
 C:\Users\admin\Desktop\repo-c-shart\ApiWithCICD\obj\Debug\net8.0\ref\ApiWithCICD.dll
+C:\Users\admin\Desktop\repo-c-shart\ApiWithCICD\obj\Debug\net8.0\ApiWithCICD.sourcelink.json
