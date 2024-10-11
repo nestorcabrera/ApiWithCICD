@@ -1,4 +1,4 @@
-namespace ApiWithCICD.Properties.Entity;
+namespace ApiWithCICD.src.Entity;
 public class Employee
 {
     public int Id { get; set; }

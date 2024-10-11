@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Desktop\\repo-c-shart\\ApiWithCICD\\ApiWithCICD.csproj": {}
+    "c:\\Users\\admin\\Desktop\\repo-c-shart\\ApiWithCICD\\ApiWithCICD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Desktop\\repo-c-shart\\ApiWithCICD\\ApiWithCICD.csproj": {
+    "c:\\Users\\admin\\Desktop\\repo-c-shart\\ApiWithCICD\\ApiWithCICD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\repo-c-shart\\ApiWithCICD\\ApiWithCICD.csproj",
+        "projectUniqueName": "c:\\Users\\admin\\Desktop\\repo-c-shart\\ApiWithCICD\\ApiWithCICD.csproj",
         "projectName": "ApiWithCICD",
-        "projectPath": "C:\\Users\\admin\\Desktop\\repo-c-shart\\ApiWithCICD\\ApiWithCICD.csproj",
+        "projectPath": "c:\\Users\\admin\\Desktop\\repo-c-shart\\ApiWithCICD\\ApiWithCICD.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\repo-c-shart\\ApiWithCICD\\obj\\",
+        "outputPath": "c:\\Users\\admin\\Desktop\\repo-c-shart\\ApiWithCICD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

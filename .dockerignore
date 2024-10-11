@@ -1,0 +1,21 @@
+# Archivos y carpetas innecesarios para el contenedor Docker
+bin/
+obj/
+*.db
+*.sqlite
+*.mdf
+*.ldf
+*.pdb
+*.log
+
+# Archivos específicos del IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.rsuser
+*.sln.docstates
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db

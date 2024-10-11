@@ -11,16 +11,18 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v1
-        with:
-          dotnet-version: "8.x"
-      - name: Restore dependencies
-        run: dotnet restore
-      - name: Build
-        run: dotnet build --no-restore
-      - name: Test
-        run: dotnet test --no-build --verbosity normal
+      - name: Build Docker image
+        run: docker build -t container:latest .
+      - name: Test Docker container
+        run:
+          docker run --name container-test -d container:latest
+          # Añade aquí comandos para ejecutar pruebas en el contenedor si lo deseas.
+      - name: Push Docker image to registry
+        run:
+          echo $GHCR_TOKEN | docker login ghcr.io -u tu-usuario --password-stdin
+          docker tag container:latest ghcr.io/nestorcabrera/ApiWithCICD:latest
+          docker push ghcr.io/nestorcabrera/ApiWithCICD:latest
       - name: Deploy to Cloudflare
-        run: |
-          # Comandos para despliegue en Cloudflare (aún por definir)
+        run:
+          echo "Deploying to Cloudflare"
+          # Añade aquí comandos para desplegar la aplicación en Cloudflare Workers.

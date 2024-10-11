@@ -1,7 +1,10 @@
-using ApiWithCICD.Properties.Database;
-using ApiWithCICD.Properties.Entity;
+
+using ApiWithCICD.src.Database;
+using ApiWithCICD.src.Entity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+
+namespace ApiWithCICD.src.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
@@ -12,6 +15,13 @@ public class EmployeesController : ControllerBase
     public EmployeesController(AppDbContext context)
     {
         _context = context;
+    }
+
+    //Get health check
+    [HttpGet("health")]
+    public IActionResult GetHealth()
+    {
+        return Ok("Healthy");
     }
 
     // GET: api/employees

@@ -1,7 +1,7 @@
-using ApiWithCICD.Properties.Entity;
+using ApiWithCICD.src.Entity;
 using Microsoft.EntityFrameworkCore;
 
-namespace ApiWithCICD.Properties.Database;
+namespace ApiWithCICD.src.Database;
 
 public class AppDbContext : DbContext
 {
